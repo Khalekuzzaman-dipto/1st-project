@@ -1,0 +1,804 @@
+@media (min-width: 320px) and (max-width: 575.98px) { 
+
+
+    #main .main_item .login_buttom {
+        position: static;
+        top: 0;
+        right: 0;
+        transform: translateY(0%);
+    }
+    .navbar-nav.m-auto.mb-2.mb-lg-0 {
+        text-align: center;
+        padding-top: 9px;
+        background-color: #ffffff;
+        padding-bottom: 9px;
+    }
+    #main ul li a img {
+        display: none;
+    }
+    #banner .container .row img{
+        display: none;
+    }
+    #banner .container .row .text {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    #banner .container .row .text button {
+        margin-top: 5px;
+    }
+    #history .container .row .small img{
+        display: none;
+    }
+    #history .container .row {
+        padding-top: 35px;
+        padding-bottom: 0px;
+    }
+    #history .container .row h3 {
+        padding-left: 0;
+    }
+    #history .container .row h4 {
+        margin-right: 80px;
+    }
+    #history .container .row .shape {
+        text-align: center;
+    }
+    #history .container .row .shape img {
+        left: 41px;
+    }
+    #gift .container .row .box {
+        display: none;
+    }
+    #gift .container .row {
+        padding: 37px 0px;
+        text-align: center;
+    }
+    #gift .container .row h4 {
+        margin-right: 100px;
+    }
+    #gift .container .row button a {
+        font-size: 16px;
+    }
+    #ticket .container .row {
+        padding-top: 25px;
+        padding-bottom: 0px;
+    }
+    #ticket .container .row .box {
+        display: none;
+    }
+    #ticket .container .row .shape {
+        text-align: center;
+    }
+    #ticket .container .row h4 {
+        margin-left: 94px;
+    }
+    #ticket .container .row h3 {
+        padding-right: 10px;
+    }
+    #ticket .container .row .shape img {
+        right: 13px;
+    }
+    #ticket .container .row button a {
+        font-size: 16px;
+    }
+    #offer .container .row h3 {
+        font-size: 30px;
+    }
+    #offer .container .row p {
+        text-align: center;
+    }
+    #offer .container .row .text {
+        padding-top: 43px;
+    }
+    #offer .container .row .shape img {
+        top: 20px;
+    }
+    #offer .container .row .extra {
+        padding: 30px 15px 15px 15px;
+    }
+    #offer .container .row .extra img {
+        top: 15px;
+    }
+    #captures .container .row {
+        padding-top: 10px;
+        padding-bottom: 0px;
+    }
+    #captures .container {
+        overflow: hidden;
+    }
+    #captures .container .row .text {
+        text-align: center;
+        margin-top: 14px;
+        position: relative;
+    }
+    #captures .container .row .text img {
+        position: absolute;
+        right: 11px;
+        top: -16px;
+    }
+    #captures .container .row .text h3 {
+        font-size: 28px;
+        padding-right: 45px;
+    }
+    #captures .container .row .text h4 {
+        padding-right: 0;
+        margin-right: -48px;
+    }
+    #captures .container .row .text button a {
+        font-size: 15px;
+    }
+    #captures .container .row .image .overlay .romentic {
+        position: absolute;
+        bottom: 0;
+        text-align: center;
+        width: 100%;
+        top: 76%;
+    }
+    .countdown .container li span {
+        display:block;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 20px;
+    }
+
+    #six .five {
+        font-size: 16px;
+        list-style-type: none;
+        padding: 5px;
+        text-transform: uppercase;
+    }
+    .countdown {
+        background: url(../image/countdown-background.png) no-repeat center;
+        background-size: cover;
+        height: 83px;
+    }
+    #slider .container .your-class .item1 p {
+        font-size: 14px;
+        line-height: 26px;
+    }
+    .slick-slide img {
+        display: block;
+        width: 100%;
+    }
+    #slider .container .your-class .item1 .round {
+        height: 90px;
+        width: 90px;
+        border-radius: 50%;
+    }
+    #slider .container .your-class .item1 h3 {
+        font-size: 16px;
+        margin-top: 16px;
+    }
+    #slider .container .your-class .item1 span {
+        font-size: 11px;
+    }
+    #slider .container .your-class .item1 {
+        background-color: #fffae2;
+        padding-top: 22px;
+        padding-bottom: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+        /* width: 600px; */
+    }
+    .next {
+        top: 50%;
+        right:0;
+        border-radius: 50%;
+        color: #d50a51;
+        transform: translate(-50%, -50%);
+        transition: .4s;
+        z-index: 99;
+        left: 94%;
+    }
+    .prev {
+        top: 50%;
+        right:0;
+        border-radius: 50%;
+        color: #d50a51;
+        transform: translate(-50%, -50%);
+        transition: .4s;
+        z-index: 99;
+        left: 6%;
+    }
+    #top .container .full {
+        border-radius: 35px;
+    }
+    #top .container .full .row .main {
+        margin-left: -8px;
+    }
+    #top .container .full .row .main .text h3 {
+        font-size: 30px;
+    }
+    #top .container .full .row .right {
+        padding-top:0;
+        margin-left: 10px;
+        flex-direction: column;
+        margin-right: 10px;
+    }
+    .input-group {
+
+        flex-wrap:unset;
+
+    }
+    #top .container .full .row .right .item2 {
+        padding-right: 2px;
+    }
+    #top .container .bottom .logo {
+        padding-left: 0;
+        margin-bottom: 50px;
+        text-align: center;
+        margin-top: -110px;
+    }
+    #top .container .bottom .main .icon-one {
+      
+        margin-left:0;
+        margin-right: 10px;
+    }
+
+
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+
+    #main .main_item .login_buttom {
+        position: static;
+        top: 0;
+        right: 0;
+        transform: translateY(0%);
+    }
+    .navbar-nav.m-auto.mb-2.mb-lg-0 {
+        text-align: center;
+        padding-top: 9px;
+        background-color: #ffffff;
+        padding-bottom: 9px;
+    }
+    #main ul li a img {
+        display: none;
+    }
+    #banner .container .row img{
+        display: none;
+    }
+    #banner .container .row .text {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    #banner .container .row .text button {
+        margin-top: 5px;
+    }
+    #history .container .row .small img{
+        display: none;
+    }
+    #history .container .row {
+        padding-top: 35px;
+        padding-bottom: 0px;
+    }
+    #history .container .row h3 {
+        padding-left: 0;
+    }
+    #history .container .row h4 {
+        margin-right: 101px;
+        text-align: center;
+    }
+    #history .container .row .shape {
+        text-align: center;
+    }
+    #history .container .row .shape img {
+        left: 147px;
+    }
+    #gift .container .row .box {
+        display: none;
+    }
+    #gift .container .row {
+        padding: 37px 0px;
+        text-align: center;
+    }
+    #gift .container .row .shape img {
+        position: absolute;
+        top: -20px;
+        left: 130px;
+    }
+    #gift .container .row h4 {
+        margin-right: 100px;
+    }
+    #gift .container .row button a {
+        font-size: 16px;
+    }
+    #ticket .container .row {
+        padding-top: 25px;
+        padding-bottom: 0px;
+    }
+    #ticket .container .row .box {
+        display: none;
+    }
+    #ticket .container .row .shape {
+        text-align: center;
+    }
+    #ticket .container .row h4 {
+        margin-left: 94px;
+    }
+    #ticket .container .row h3 {
+        padding-right: 10px;
+    }
+    #ticket .container .row .shape img {
+        right: 125px;
+    }
+    #ticket .container .row button a {
+        font-size: 16px;
+    }
+    #offer .container .row h3 {
+        font-size: 30px;
+        text-align: center;
+    }
+    #offer .container .row h4 {
+        padding-left: 0px;
+        text-align: center;
+        margin-left: -72px;
+    }
+    #offer .container .row p {
+        text-align: center;
+    }
+    #offer .container .row .text {
+        padding-top: 43px;
+    }
+    #offer .container .row .shape img {
+        top: 20px;
+        left: 126px;
+    }
+    #offer .container .row .extra {
+        padding: 30px 15px 15px 15px;
+    }
+    #offer .container .row .extra img {
+        top: 15px;
+    }
+    #captures .container .row {
+        padding-top: 10px;
+        padding-bottom: 0px;
+    }
+    #captures .container {
+        overflow: hidden;
+    }
+    #captures .container .row .text {
+        text-align: center;
+        margin-top: 14px;
+        position: relative;
+    }
+    #captures .container .row .text img {
+        position: absolute;
+        right: 11px;
+        top: -16px;
+    }
+    #captures .container .row .text h3 {
+        font-size: 28px;
+        padding-right: 45px;
+    }
+    #captures .container .row .text h4 {
+        padding-right: 0;
+        margin-right: -48px;
+    }
+    #captures .container .row .text button a {
+        font-size: 15px;
+    }
+    #captures .container .row .image .overlay .romentic {
+        position: absolute;
+        bottom: 0;
+        text-align: center;
+        width: 100%;
+        top: 76%;
+    }
+    .countdown .container li span {
+        display:block;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 20px;
+    }
+
+    #six .five {
+        font-size: 16px;
+        list-style-type: none;
+        padding: 5px;
+        text-transform: uppercase;
+    }
+    .countdown {
+        background: url(../image/countdown-background.png) no-repeat center;
+        background-size: cover;
+        height: 83px;
+    }
+    #slider .container .your-class .item1 p {
+        font-size: 14px;
+        line-height: 26px;
+    }
+    .slick-slide img {
+        display: block;
+        width: 100%;
+    }
+    #slider .container .your-class .item1 .round {
+        height: 90px;
+        width: 90px;
+        border-radius: 50%;
+    }
+    #slider .container .your-class .item1 h3 {
+        font-size: 16px;
+        margin-top: 16px;
+    }
+    #slider .container .your-class .item1 span {
+        font-size: 11px;
+    }
+    #slider .container .your-class .item1 {
+        background-color: #fffae2;
+        padding-top: 22px;
+        padding-bottom: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+        /* width: 600px; */
+    }
+    .next {
+        top: 50%;
+        right:0;
+        border-radius: 50%;
+        color: #d50a51;
+        transform: translate(-50%, -50%);
+        transition: .4s;
+        z-index: 99;
+        left: 94%;
+    }
+    .prev {
+        top: 50%;
+        right:0;
+        border-radius: 50%;
+        color: #d50a51;
+        transform: translate(-50%, -50%);
+        transition: .4s;
+        z-index: 99;
+        left: 6%;
+    }
+    #top .container .full {
+        border-radius: 35px;
+    }
+    #top .container .full .row .main {
+        margin-left: -8px;
+    }
+    #top .container .full .row .main .text h3 {
+        font-size: 30px;
+    }
+    #top .container .full .row .right {
+        padding-top:0;
+        margin-left: 10px;
+        flex-direction: column;
+        margin-right: 10px;
+    }
+    .input-group {
+
+        flex-wrap:unset;
+
+    }
+    #top .container .full .row .right .item2 {
+        padding-right: 2px;
+    }
+    #top .container .bottom .logo {
+        padding-left: 0;
+        margin-bottom: 50px;
+        text-align: center;
+        margin-top: -110px;
+    }
+    #top .container .bottom .main .icon-one {
+      
+        margin-left:0;
+        margin-right: 10px;
+    }
+    #top .container .bottom .main {
+        display: flex;
+        justify-content: center;
+    }
+    #top .container .bottom .add {
+        display: flex;
+        justify-content: center;
+        padding-left: 40px;
+    }
+
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px){
+    #main .main_item .login_buttom {
+        position: static;
+        top: 0;
+        right: 0;
+        transform: translateY(0%);
+    }
+    .navbar-nav.m-auto.mb-2.mb-lg-0 {
+        text-align: center;
+        padding-top: 9px;
+        background-color: #ffffff;
+        padding-bottom: 9px;
+    }
+    #main ul li a img {
+        display: none;
+    }
+    #banner .container img{
+        width: 100%;
+    }
+    #banner .container .row .text {
+        padding-top: 0px;
+        padding-bottom: 30px;
+        text-align: center;
+    }
+    #banner .container .row .text h2 {
+        font-size: 47px;
+    }
+    #banner .container .row .text h1 {
+        font-size: 65px;
+        line-height: 54px;
+        margin-top: -24px;
+    }
+    #history .container .row .small{
+        margin-top: 80px;
+    }
+    #history .container .row .small img{
+        width: 100%;
+    }
+    #history .container .row p {
+        font-size: 14px;
+        line-height: 25px;
+    }
+    #history .container .row p span {
+        font-size: 14px;
+    }
+    #history .container .row {
+        padding-top: 28px;
+        padding-bottom: 23px;
+    }
+
+    #gift .container .row .box img{
+        width: 100%;
+    }
+    #gift .container .row {
+        padding: 40px 0;
+    }
+    #gift .container .row .box img {
+        position: absolute;
+        bottom: 72px;
+        left: 0;
+    }
+    #gift .container .row p {
+        font-size: 14px;
+    }
+    #gift .container .row p span {
+        font-size: 14px;
+        margin-top: 8px;
+    }
+    #gift .container .row button a {
+        font-size: 16px;
+    }
+    #ticket .container .row .box img{
+        width: 100%;
+    }
+    #ticket .container .row .box img {
+        position: static;
+    }
+    #ticket .container .row .box {
+        padding-top: 69px;
+    }
+    #ticket .container .row {
+        padding-top: 30px;
+        padding-bottom: 19px;
+    }
+    #ticket .container .row p {
+        font-size: 14px;
+        line-height: 25px;
+    }
+    #ticket .container .row p span {
+        font-size: 14px;
+        margin-top: 6px;
+    }
+    #ticket .container .row button a {
+        font-size: 16px;
+    }
+    #captures .container .row .text {
+        text-align: right;
+        margin-top: 0px;
+    }
+    #captures .container .row {
+        padding-top: 10px;
+        padding-bottom: 50px;
+    }
+    /* #captures .container .row img{
+        width: 100%;
+    } */
+    #captures .container .row .text h4 {
+        padding-right: 54px;
+        margin-top: -59px;
+    }
+    #captures .container .row .text button a {
+        font-size: 16px;
+    }
+    .prev {
+        left: -3px;
+        z-index: 99;
+    }
+    .next {
+        right: -35px;
+        z-index: 99;
+    }
+    #slider .container .your-class .item1 span {
+        font-size: 15px;
+    }
+    #top .container .full .row .main {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        margin-left: 0;
+        /* text-align: center; */
+    }
+    #top .container .full .row .right .item2 {
+        padding-right: 81px;
+    }
+    #top .container .full .row .right {
+        margin-left: 85px;
+    }
+    #top .container .bottom .main {
+        display: flex;
+        justify-content: center;
+    }
+    #top .container .bottom .add {
+        padding-left: 41px;
+    }
+
+}
+@media (min-width: 992px) and (max-width: 1199.98px){
+    #main .main_item .login_buttom {
+        position: static;
+        top: 0;
+        right: 0;
+        transform: translateY(0%);
+    }
+    .navbar-nav.m-auto.mb-2.mb-lg-0 {
+        text-align: center;
+        padding-top: 9px;
+        background-color: #ffffff;
+        padding-bottom: 9px;
+    }
+    #main ul li a img {
+        display: none;
+    }
+    #banner .container img{
+        width: 100%;
+    }
+    #banner .container .row .text {
+        padding-top: 0px;
+        padding-bottom: 30px;
+        text-align: center;
+    }
+    #banner .container .row .text h2 {
+        font-size: 47px;
+    }
+    #banner .container .row .text h1 {
+        font-size: 65px;
+        line-height: 54px;
+        margin-top: -24px;
+    }
+    #history .container .row .small{
+        margin-top: 80px;
+    }
+    #history .container .row .small img{
+        width: 100%;
+    }
+    #history .container .row p {
+        font-size: 14px;
+        line-height: 25px;
+    }
+    #history .container .row p span {
+        font-size: 14px;
+    }
+    #history .container .row {
+        padding-top: 28px;
+        padding-bottom: 23px;
+    }
+
+    #gift .container .row .box img{
+        width: 100%;
+    }
+    #gift .container .row {
+        padding: 40px 0;
+    }
+    #gift .container .row .box img {
+        position: absolute;
+        bottom: 72px;
+        left: 0;
+    }
+    #gift .container .row p {
+        font-size: 14px;
+    }
+    #gift .container .row p span {
+        font-size: 14px;
+        margin-top: 8px;
+    }
+    #gift .container .row button a {
+        font-size: 16px;
+    }
+    #ticket .container .row .box img{
+        width: 100%;
+    }
+    #ticket .container .row .box img {
+        position: static;
+    }
+    #ticket .container .row .box {
+        padding-top: 69px;
+    }
+    #ticket .container .row {
+        padding-top: 30px;
+        padding-bottom: 19px;
+    }
+    #ticket .container .row p {
+        font-size: 14px;
+        line-height: 25px;
+    }
+    #ticket .container .row p span {
+        font-size: 14px;
+        margin-top: 6px;
+    }
+    #ticket .container .row button a {
+        font-size: 16px;
+    }
+    #captures .container .row .text {
+        text-align: right;
+        margin-top: 0px;
+    }
+    #captures .container .row {
+        padding-top: 10px;
+        padding-bottom: 50px;
+    }
+    /* #captures .container .row img{
+        width: 100%;
+    } */
+    #captures .container .row .text h4 {
+        padding-right: 54px;
+        margin-top: -59px;
+    }
+    #captures .container .row .text button a {
+        font-size: 16px;
+    }
+    .prev {
+        left: -3px;
+        z-index: 99;
+    }
+    .next {
+        right: -35px;
+        z-index: 99;
+    }
+    #slider .container .your-class .item1 span {
+        font-size: 15px;
+    }
+    #top .container .full .row .main {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        margin-left: 0;
+        /* text-align: center; */
+    }
+    #top .container .full .row .right .item2 {
+        padding-right: 81px;
+    }
+    #top .container .full .row .right {
+        margin-left: 85px;
+    }
+    #top .container .bottom .main {
+        display: flex;
+        justify-content: center;
+    }
+    #top .container .bottom .main .icon-one {
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        background: #d50a51;
+        border: 1px solid #ffffff;
+        text-align: center;
+        margin-left: 13px;
+        margin-right: 10px;
+    }
+    #top .container .bottom .add {
+        padding-left: 41px;
+    }
+    #top .container .bottom .add {
+        padding-left: 2px;
+    }
+
+}

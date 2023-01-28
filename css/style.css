@@ -1,0 +1,964 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+img{
+    vertical-align: middle;
+}
+
+/*===================
+   common css end 
+ =================== */
+
+ /*===================
+   manu css start
+ =================== */
+ #main{
+    position: absolute;
+    width: 100%;
+ }
+ /* #main ul li{
+        padding: 0px !important;
+
+ } */
+ 
+#main ul li a{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px ;
+    font-weight:600 ;
+    color: #000000 ;
+    position: relative;
+    transition: .4s;
+    margin: 0 5px;
+
+}
+#main ul li a img{
+    position: absolute;
+    left: 50%;
+    bottom: -30px;
+    transform: translateX(-50%);
+    transition: .4s ;
+    opacity: 0;
+    visibility: hidden;
+}
+
+#main ul li a:hover{
+    color: #d50a51;
+}
+
+#main ul li a:hover img{
+ bottom: -10px;
+ opacity: 1;
+ visibility: visible;
+}
+#main button{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px ;
+    font-weight:600 ;
+    color: #ffffff ;
+    background-color: #d50a51;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: none;
+}
+#main .main_item{
+    position: relative;
+}
+
+#main .main_item .login_buttom{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+/*===================
+   manu css end 
+ =================== */
+
+ /*===================
+   banner css start 
+ =================== */
+
+ #banner{
+    background: url(../image/cover.png)no-repeat center;
+    background-size: cover;
+    padding-top: 133px;
+ }
+
+ #banner .container .row .text{
+    padding-top:92px ;
+    padding-bottom: 144px;
+    text-align: center;
+ }
+ #banner .container .row .text h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 61px ;
+    line-height: 54px;
+    font-weight:600 ;
+    color: #8a5e3b ;
+    text-transform: uppercase;
+ }
+ #banner .container .row .text h1{
+    font-family: 'Great Vibes', cursive;
+    font-size: 84px ;
+    line-height: 54px;
+    font-weight: 400;
+    color: #d50a51;
+    margin-top: -10px;
+ }
+ #banner .container .row .text p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px ;
+    line-height: 26px;
+    font-weight: 400;
+    color: #444444;
+    margin-top: 30px;
+ }
+ #banner .container .row .text button{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px ;
+    font-weight:600 ;
+    color: #d50a51 ;
+    border: 2px solid #d50a51;
+    padding: 10px 20px;
+    border-radius: 30px;
+    margin-top: 30px;
+}
+#banner .container .row .text button a{
+    color: #d50a51 ;
+}
+ 
+ /*===================
+   banner css end 
+ =================== */
+
+ /*===================
+   history css start
+ =================== */
+#history .container .row{
+    padding-top: 100px;
+    padding-bottom: 91px;
+}
+
+#history .container .row h4{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px ;
+    font-weight:600 ;
+    line-height: 34px ;
+    color: #666666 ;
+    padding-left: 54px;
+}
+
+#history .container .row h3{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 32px ;
+    font-weight:600 ;
+    line-height: 34px ;
+    color: #d50a51 ;
+    padding-left: 54px;
+}
+
+#history .container .row p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px ;
+    font-weight:400 ;
+    line-height: 26px ;
+    color: #444444 ;
+    margin-top: 32px;
+}
+
+#history .container .row p span{
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px ;
+    font-weight:400 ;
+    /* line-height: 26px ; */
+    color: #444444 ;
+    margin-top: 20px;
+}
+#history .container .row .shape{
+    position: relative;
+}
+
+#history .container .row .shape img{
+    position: absolute;
+    top: -20px;
+    left: 3px;
+}
+
+
+
+ /*===================
+   history css end
+ =================== */
+
+ /*===================
+   gift css start
+ =================== */
+ #gift{
+    background: url(../image/background-image.png) no-repeat center;
+    background-size: cover;
+}
+#gift .container .row{
+    padding: 90px 90px;
+}
+
+#gift .container .row h4{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px ;
+    font-weight:600 ;
+    line-height: 34px ;
+    color: #666666 ;
+    padding-left: 54px;
+}
+
+#gift .container .row h3{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 32px ;
+    font-weight:600 ;
+    line-height: 34px ;
+    color: #d50a51 ;
+    padding-left: 54px;
+}
+
+#gift .container .row p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px ;
+    font-weight:400 ;
+    line-height: 26px ;
+    color: #444444 ;
+    margin-top: 32px;
+}
+
+#gift .container .row p span{
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px ;
+    font-weight:400 ;
+    color: #444444 ;
+    margin-top: 20px;
+}
+#gift .container .row .shape{
+    position: relative;
+}
+
+#gift .container .row .shape img{
+    position: absolute;
+    top: -20px;
+    left: 14px;
+}
+#gift .container .row button{
+    padding:10px 20px ;
+    border-radius: 30px;
+    border: 2px solid #d50a51;
+    margin-top: 20px;
+    transition: .4s;
+}
+#gift .container .row button{
+    margin-left: 20px;
+    
+}
+#gift .container .row button a{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px ;
+    font-weight:600 ;
+    color: #d50a51 ;
+}
+#gift .container .row button:hover{
+    color: #fefefe;
+    background-color: #d50a51;
+}
+#gift .container .row button:hover a{
+    color: #fefefe;
+}
+
+#gift .container .row .box{
+    position: relative;
+}
+#gift .container .row .box img{
+    position: absolute;
+    bottom: -135px;
+    left: -124px;
+}
+.mar{
+    margin-left: 0 !important;
+}
+
+
+
+  /*===================
+   gift css end
+ =================== */
+
+ /*===================
+   ticket css start
+ =================== */
+
+ #ticket .container .row{
+    padding-top: 112px;
+    padding-bottom: 100px;
+}
+#ticket .container .row .text{
+    text-align: right;
+}
+
+#ticket .container .row h4{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px ;
+    font-weight:600 ;
+    line-height: 34px ;
+    color: #666666 ;
+    padding-right: 54px;
+}
+
+#ticket .container .row h3{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 32px ;
+    font-weight:600 ;
+    line-height: 34px ;
+    color: #d50a51 ;
+    padding-right: 54px;
+}
+
+#ticket .container .row p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px ;
+    font-weight:400 ;
+    line-height: 26px ;
+    color: #444444 ;
+    margin-top: 32px;
+}
+
+#ticket .container .row p span{
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px ;
+    font-weight:400 ;
+    color: #444444 ;
+    margin-top: 20px;
+}
+#ticket .container .row .shape{
+    position: relative;
+}
+
+#ticket .container .row .shape img{
+    position: absolute;
+    top: -20px;
+    right: 14px;
+}
+#ticket .container .row button{
+    padding:10px 20px ;
+    border-radius: 30px;
+    border: 2px solid #d50a51;
+    margin-top: 20px;
+    transition: .4s;
+}
+#ticket .container .row button{
+    margin-left: 20px;
+    
+}
+#ticket .container .row button a{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px ;
+    font-weight:600 ;
+    color: #d50a51 ;
+}
+#ticket .container .row button:hover{
+    color: #fefefe;
+    background-color: #d50a51;
+}
+#ticket .container .row button:hover a{
+    color: #fefefe;
+}
+
+#ticket .container .row .box{
+    position: relative;
+}
+#ticket .container .row .box img{
+    position: absolute;
+   left: -85px;
+}
+
+/*===================
+   ticket css end
+ =================== */
+
+ /*===================
+   offer css start
+ =================== */
+
+ #offer{
+   background-color: #fef7fa;
+}
+#offer .container .row .text{
+    padding-top: 90px;
+}
+
+#offer .container .row h4{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px ;
+    font-weight:600 ;
+    line-height: 34px ;
+    color: #666666 ;
+    padding-left: 54px;
+}
+
+#offer .container .row h3{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 32px ;
+    font-weight:600 ;
+    line-height: 34px ;
+    color: #d50a51 ;
+    padding-left: 54px;
+}
+
+#offer .container .row p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px ;
+    font-weight:400 ;
+    line-height: 26px ;
+    color: #444444 ;
+    margin-top: 32px;
+}
+
+#offer .container .row p span{
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px ;
+    font-weight:400 ;
+    color: #444444 ;
+    margin-top: 20px;
+}
+#offer .container .row .shape{
+    position: relative;
+}
+
+#offer .container .row .shape img{
+    position: absolute;
+    top: 68px;
+    left: 15px;
+}
+#offer .container .row .top{
+    padding-top: 40px;
+}
+
+#offer .container .row .extra{
+    padding: 60px 30px 30px 30px;
+    position: relative;
+    border-right: 2px solid transparent;
+    transition: .4s;
+}
+
+#offer .container .row .extra img{
+    position: absolute;
+    top: 40px;
+}
+
+#offer .container .row .extra h3{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px ;
+    font-weight:600 ;
+    line-height: 34px ;
+    color: #d50a51 ;
+    padding-left:45px;
+}
+#offer .container .row .move h3{
+    padding-left:55px;
+}
+#offer .container .row .move1 h3{
+    padding-left:80px;
+}
+#offer .container .row .extra p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px ;
+    font-weight:400 ;
+    line-height: 26px ;
+    color: #444444 ;
+    margin-top: 20px;
+}
+#offer .container .row .extra:hover{
+    background-color: #f1f1f1;
+    border-right: 2px solid #d50a51;
+    box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
+}
+
+ /*===================
+   offer css end
+ =================== */
+
+  /*===================
+   captures css start
+ =================== */
+
+#captures .container .row{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#captures .container .row .image{
+    position: relative;
+    margin-bottom: 24px;
+}
+#captures .container .row .image img{
+    width: 100%;
+}
+#captures .container .row .image .overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(11, 7, 3, 0.514);
+    transform: scale(.7);
+    opacity: 0;
+    visibility: hidden;
+    transition: .4s;
+}
+#captures .container .row .image:hover .overlay{
+    transform: scale(1);
+    opacity: 1;
+    visibility: visible;
+}
+#captures .container .row .image .overlay ul{
+    position: absolute;
+    top: 17px;
+    right: 15px;
+}
+
+#captures .container .row .image .overlay li i{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+    text-align: center;
+    line-height: 30px;
+    padding-top: 3px;
+    transition: .4s;
+}
+#captures .container .row .image .overlay li a{
+   color: #f1f1f1;  
+   padding-top: 5px;
+   transition: .4s;
+   margin-bottom: 5px;
+   }
+#captures .container .row .image .overlay ul li i:hover{
+    background-color: #d50a51;
+    border-color: #d50a51;
+}
+
+#captures .container .row .image .overlay .romentic{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+}
+#captures .container .row .image .overlay .romentic h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px ;
+    font-weight:600 ;
+    color: #ffffff ;
+
+}
+#captures .container .row .image .overlay .romentic p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px ;
+    font-weight:400 ;
+    color: #ffffff ;
+
+}
+#captures .container .row .image .overlay .romentic p span{
+  margin-left: 10px;
+
+}
+
+
+#captures .container .row .text{
+    text-align: right;
+    margin-top: 47px;
+}
+
+#captures .container .row .text h4{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px ;
+    font-weight:600 ;
+    line-height: 34px ;
+    color: #666666 ;
+    padding-right: 54px;
+}
+
+#captures .container .row .text h3{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 32px ;
+    font-weight:600 ;
+    line-height: 34px ;
+    color: #d50a51 ;
+    padding-right: 54px;
+}
+
+#captures .container .row .text p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px ;
+    font-weight:400 ;
+    line-height: 26px ;
+    color: #444444 ;
+    margin-top: 32px;
+}
+
+#captures .container .row .text p span{
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px ;
+    font-weight:400 ;
+    color: #444444 ;
+    margin-top: 20px;
+}
+#captures .container .row .text .shape{
+    position: relative;
+}
+
+#captures .container .row .text .shape img{
+    position: absolute;
+    top: -20px;
+    right: 14px;
+}
+#captures .container .row .text button{
+    padding:10px 20px ;
+    border-radius: 30px;
+    border: 2px solid #d50a51;
+    margin-top: 20px;
+    transition: .4s;
+}
+#captures .container .row .text button{
+    margin-left: 20px;
+    
+}
+#captures .container .row .text button a{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px ;
+    font-weight:600 ;
+    color: #d50a51 ;
+}
+#captures .container .row .text button:hover{
+    color: #fefefe;
+    background-color: #d50a51;
+}
+#captures .container .row .text button:hover a{
+    color: #fefefe;
+}
+/*===================
+   captures css end
+ =================== */
+ /*===================
+   countdown css start
+ =================== */
+ .countdown{
+    background: url(../image/countdown-background.png) no-repeat center;
+    background-size: cover;
+    height: 174px;
+ }
+
+#six{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+  }
+  #six .five {
+    font-size: 1.5em;
+    list-style-type: none;
+    padding: 1em;
+    text-transform: uppercase;
+  }
+  
+  li span {
+    display: block;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 42px ;
+    font-weight:600 ;
+    color: #d50a51;
+    /* margin-left: 15px; */
+  }
+  
+
+ /*===================
+   countdown css end
+ =================== */
+
+  /*===================
+   slider css start
+ =================== */
+ .slick-slide {
+    /* padding:10px; */
+    margin-right:15px;
+    margin-left:15px;
+}
+#slider{
+    padding-bottom: 150px;
+}
+
+ 
+
+ /* #slider .container .your-class .slick {
+    margin: 0 auto;
+ } */
+ #slider .container .your-class .item1{
+    background-color: #fffae2;
+    padding-top: 44px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    /* width: 600px; */
+
+   
+ }
+ #slider .container .your-class .item1 .main{
+    display: flex;
+    justify-content: flex-start;
+ }
+#slider .container .your-class .item1 p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px ;
+    line-height: 26px;
+    font-weight:400 ;
+    color: #444444 ;
+}
+
+#slider .container .your-class .item1 .round{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+
+}
+#slider .container .your-class .item1 h3{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px ;
+    line-height: 24px;
+    font-weight:600 ;
+    color: #222222 ;
+    margin-left: 20px;
+    margin-top: 24px;
+}
+#slider .container .your-class .item1 span{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px ;
+    line-height: 24px;
+    font-weight:400 ;
+    color: #444444 ;
+    margin-left: 20px;
+}
+.prev{
+    text-align: center;
+    position: absolute;
+    height: 33px;
+    width: 33px;
+    font-size: 30px;
+    border: 1px solid #d50a51;
+    top: 50%;
+    left: -37px;
+    border-radius: 50%;
+    color: #d50a51;
+    transform: translate(-50%, -50%);
+    transition: .4s;
+}
+.next{
+    text-align: center;
+    position: absolute;
+    height: 33px;
+    width: 33px;
+    font-size: 30px;
+    border: 1px solid #d50a51;
+    top: 50%;
+    right: -60px;
+    border-radius: 50%;
+    color: #d50a51;
+    transform: translate(-50%, -50%);
+    transition: .4s;
+}
+.next:hover{
+    background-color: #d50a51;
+    color: #ffffff;
+}
+.prev:hover{
+    background-color: #d50a51;
+    color: #ffffff;
+}
+  /*===================
+   slider css end
+ =================== */
+
+   /*===================
+   footer css start
+ =================== */
+
+ #top{
+    background-color: #fbdcea;
+    position: relative;
+    /* padding-top: 100px; */
+ }
+
+
+ #top .container .full{
+    background-color: #d50a51;
+    padding-top: 25px;
+    padding-bottom: 3px;
+    border-radius: 70px;
+    /* position: absolute; */
+    top: -30%;
+    /* width: 100%; */
+    transform: translate(0%,-50%);
+
+ }
+
+ #top .container .full .row .main{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 10px;
+    margin-left: 57px;
+ }
+ #top .container .full .row .main .icon i{
+    color: #f1f1f1;
+    font-size: 55px;
+    margin-left: 20px;
+ }
+ #top .container .full .row .main .text{
+    margin-left: 10px;
+ }
+ #top .container .full .row .main .text h3{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px ;
+    line-height: 24px;
+    font-weight:600 ;
+    color: #ffffff ;
+    padding-top: 10px;
+ }
+
+ #top .container .full .row .main .text p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 14px ;
+    line-height: 24px;
+    font-weight:400 ;
+    color: #ffffff ;
+ }
+
+ #top .container .full .row .right{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 26px;
+    margin-left: 30px;
+ }
+
+ #top .container .full .row .right .item2{
+    padding-right: 216px;
+ }
+ #top .container .full .row .right .form-control{
+    background-color: transparent;
+    font-style: italic;
+ }
+
+
+ #top .container .bottom .logo{
+        padding-left: 41%;
+        margin-bottom: 50px;
+ }
+
+ #top .container .bottom .main{
+    display: flex;
+    /* justify-content: end; */
+ }
+ #top .container .bottom .main .icon-one{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background: #d50a51;
+    border: 1px solid #ffffff;
+    text-align: center;
+    margin-left: 56px;
+    margin-right: 10px;
+ }
+ #top .container .bottom .main .icon-one a{
+    color: #ffffff;
+    font-size: 25px;
+    line-height: 50px;
+ }
+ #top .container .bottom .main .text-one p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px ;
+    line-height: 26px;
+    font-weight:400 ;
+    color: #444444 ;
+ }
+ #top .container .bottom .main .text-one p a{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px ;
+    line-height: 26px;
+    font-weight:400 ;
+    color: #444444 ;
+ }
+ #top .container .bottom .main .text-one p span{
+    display: block;
+
+ }
+ #top .container .bottom .follow{
+    text-align: center;
+ }
+
+ #top .container .bottom .follow h3{
+ font-family: 'Josefin Sans', sans-serif;
+ font-size: 20px ;
+ line-height: 24px;
+ font-weight:700 ;
+ color: #d50a51 ;
+ padding-top: 60px;
+ padding-bottom: 30px;
+ }
+
+ #top .container .bottom .follow a{
+    height: 38px;
+    width: 38px;
+    border-radius: 50%;
+    border: 1px solid #d50a51;
+    color: #d50a51;
+    text-align: center;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    transition: .4s;
+ }
+ #top .container .bottom .follow a i{
+    line-height: 38px;
+ }
+
+ #top .container .bottom .follow a:hover{
+    color: #ffffff;
+    background-color: #d50a51;
+ }
+ #copy{
+    background-color: #fce1ed;
+ }
+ #copy .container .text{
+    padding: 20px 0;
+    text-align: center;
+ }
+ #copy .container .text p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px ;
+    line-height: 24px;
+    font-weight:400 ;
+    color: #444444 ;
+ }
+ #copy .container .text p span{
+    color: #d50a51;
+    
+ }
+
+
+
+
+
+    /*===================
+   footer css end
+ =================== */
